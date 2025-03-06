@@ -5,15 +5,41 @@
   text-align: center;
 }
 
+.reactConceptChip {
+  float: left;
+  padding-bottom: 2%;
+  padding-top: 5%;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+.roundedCorners {
+  border-radius: 25px;
+}
+
+.component1 {
+  background: #eef1ea;
+}
+
+.component2 {
+  background: #d1d6c9;
+}
+
+.component3 {
+  background: #b5bbab;
+}
+
 .logo {
   height: 6em;
   padding: 1.5em;
   will-change: filter;
   transition: filter 300ms;
 }
+
 .logo:hover {
   filter: drop-shadow(0 0 2em #646cffaa);
 }
+
 .logo.react:hover {
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
@@ -22,6 +48,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
